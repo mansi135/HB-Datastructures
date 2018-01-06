@@ -133,13 +133,13 @@ def hogwarts_by_house(filename):
             instructors.append(words[1])
 
 
-    gryffindor.sort()
-    hufflepuff.sort()
-    slytherin.sort()
-    dumbledores_army.sort()
-    ravenclaw.sort()
-    ghosts.sort()
-    instructors.sort()
+    # gryffindor.sort()
+    # hufflepuff.sort()
+    # slytherin.sort()
+    # dumbledores_army.sort()
+    # ravenclaw.sort()
+    # ghosts.sort()
+    # instructors.sort()
 
   #  all_students.append(gryffindor)
   #  all_students.append(slytherin)
@@ -150,6 +150,9 @@ def hogwarts_by_house(filename):
   #  all_students.append(instructors)
 
     all_students = [gryffindor, slytherin, hufflepuff, ravenclaw, dumbledores_army, ghosts, instructors]
+
+    for house in all_students:
+        house.sort()
 
 
     return all_students
@@ -206,6 +209,7 @@ def find_cohort_by_student_name(student_list):
     """
 
     # Code goes here
+    if ''
 
 
     return "Student not found."
@@ -267,7 +271,7 @@ def find_house_members_by_student_name(student_list):
 #############################################################################
 # Here is some useful code to run these functions without doctests!
 
-find_cohort_by_student_name(all_students_data)
+#find_cohort_by_student_name(all_students_data)
 # find_house_members_by_student_name(all_students_data)
 
 
